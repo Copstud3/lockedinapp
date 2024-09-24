@@ -1,0 +1,61 @@
+.inputContainer {
+  display: flex;
+}
+.text{
+  font-family: 'Inter';
+  text-align: center;
+  position: relative;
+  top: 40px;
+  font-size: 30px;
+}
+.taskform {
+  background-color: #fff;
+  font-family: "Inter";
+  border-radius: 8px;
+  padding: 30px;
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 70px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.taskInput {
+  width: 100%;
+  border: none;
+  font-size: 20px;
+}
+.taskInput:focus {
+  outline: none;
+}
+.taskInput::placeholder {
+  font-family: "Inter";
+}
+.addButton {
+  display: inline-block;
+  background-color: #21222a;
+  font-size: 17px;
+  color: #40ccfb;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 25px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  .text{
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+  }
+  .taskform{
+    width: 300px;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  .taskInput{
+    font-size: 16px;
+  }
+  .addButton{
+    padding: 10px 20px;
+  }
+}

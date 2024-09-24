@@ -1,0 +1,27 @@
+.list {
+  font-family: "Inter";
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 700px;
+  padding: 30px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+p {
+  color: #716d6d;
+}
+
+@media only screen and (max-width: 767px) {
+  .list {
+    width: 300px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 60px;
+  }
+  p{
+    font-size: 15px;
+    text-align: center;
+  }
+}

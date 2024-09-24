@@ -1,0 +1,41 @@
+.task {
+  width: 700px;
+  font-size: 20px;
+  margin: 0;
+  font-family: "Inter";
+}
+.taskName {
+  padding: 30px 20px;
+  font-weight: bold;
+}
+.line {
+  border: 1px solid #f4f4f4;
+}
+.deleteButton {
+  float: right;
+  padding: 10px 20px;
+  background-color: #21222a;
+  border-radius: 4px;
+  color: #40ccfb;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  margin-top: -5px;
+}
+.completed{
+  text-decoration: line-through;
+}
+
+@media only screen and (max-width: 767px){
+  .task{
+    width: 300px;
+    font-size: 18px;
+  }
+  .taskName{
+    padding: 23px 10px;
+  }
+  .deleteButton {
+    padding: 8px 15px;
+    font-size: 13px;
+  }
+}
